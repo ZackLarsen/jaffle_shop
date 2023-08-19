@@ -147,9 +147,9 @@ SELECT * FROM customers LIMIT 10;
 
 ## Lineage Graph
 
-![Alt text](<Screenshot 2023-08-19 at 9.47.46 AM.png>)
+![Lineage Graph](/etc/lineage.png)
 
-### What's in this repo?
+### Seeds
 This repo contains [seeds](https://docs.getdbt.com/docs/building-a-dbt-project/seeds) that includes some (fake) raw data from a fictional app.
 
 The raw data consists of customers, orders, and payments, with the following entity-relationship diagram:
