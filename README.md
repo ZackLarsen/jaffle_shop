@@ -118,6 +118,9 @@ dbt docs serve
 Navigate to your browser and go to http://localhost:8080 to view the documentation. Click on the lower right corner to view the data lineage graph for your project, which shows a DAG of the source tables and transformations.
 
 ## Query newly created tables from seeds using DuckDB:
+
+At the terminal, issue these two commands. The first initializes a DuckDB session and the second opens our saved jaffle_shop duckdb database file created when we ran the dbt models.
+
 ```bash
 duckdb
 
