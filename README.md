@@ -4,7 +4,7 @@ This is a fork of the jaffle_shop test repo provided by dbt. The purpose of this
 
 ## Setup
 
-Define your python environment in an environment.yaml file. It can look something like this:
+Define your python environment in an environment.yaml file. It must have duckdb and dbt-duckdb installed to work properly. It can look something like this:
 
 ```yaml
 name: dbt_jaffle_shop
