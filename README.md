@@ -49,7 +49,7 @@ mamba activate dbt_jaffle_shop
 Once your environment has been defined and you have used mamba (or conda) to create it and install the necessary packages, you can fork the [jaffle_shop repo](https://github.com/dbt-labs/jaffle_shop), clone it locally, and then run dbt commands against it.
 
 ```bash
-git clone https://github.com/dbt-labs/jaffle_shop.git
+git clone https://github.com/ZackLarsen/jaffle_shop.git
 ```
 
 Change into the jaffle_shop directory from the command line:
