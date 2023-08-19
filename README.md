@@ -1,4 +1,6 @@
-# jaffle_shop (fork)
+# jaffle_shop
+
+This is a fork of the jaffle_shop test repo provided by dbt. The purpose of this repo is to use the jaffle_shop example models with the dbt-duckdb extension to experiment with using dbt locally using a DuckDB database instead of a cloud data warehouse.
 
 ## Setup
 
