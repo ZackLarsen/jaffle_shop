@@ -57,13 +57,17 @@ Change into the jaffle_shop directory from the command line:
 cd jaffle_shop
 ```
 
-Create a new dbt project by running this command in your terminal.
+To create a new dbt project, dbt instructs us to run this command in the terminal, but it seems to fail, so I skipped this step and just created a profiles.yml file manually (see the next step for details on the contents).
 
 ```bash
 dbt init jaffle_shop
-``````
+```
 
-In your dbt project directory, create a profiles.yml file. For example, to use DuckDB, your profiles.yml file should look like this:
+Instead of running **dbt init**, I simply created my profiles.yml file using guidance from Josh Wills in his dbt-duckdb GitHub repository and the corresponding page on the dbt docs site.
+- https://github.com/jwills/dbt-duckdb
+- https://docs.getdbt.com/docs/core/connect-data-platform/duckdb-setup
+
+For example, to use DuckDB, your profiles.yml file should look like this:
 
 ```yaml
 jaffle_shop:
