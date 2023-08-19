@@ -1,0 +1,9 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '/Users/zacklarsen/Documents/Documents - Zack’s Mac mini/Projects/jaffle_shop/jaffle_shop.duckdb'
+      extensions:
+        - httpfs
+        - parquet
